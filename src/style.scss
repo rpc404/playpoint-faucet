@@ -1,0 +1,119 @@
+.app__container {
+  padding: 30px 0;
+  .landing__container {
+    // @note title
+    .title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin: 20px 0;
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+    // @note navlinks
+    .navLinks {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      color: #89959e;
+      font-size: 16px;
+      margin-bottom: 50px;
+
+      div {
+        cursor: pointer;
+        transition: 0.3s all ease-in-out;
+
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+
+    .bannerImage {
+      display: block;
+      margin: 0 auto;
+      width: 45vw;
+    }
+
+    .faucetDescription__container {
+      font-size: 22px;
+      width: 50vw;
+      margin: 15px auto;
+      color: #89959e;
+      line-height: 1.5;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+      }
+    }
+
+    .faucet__container {
+      background: #2c3339;
+      padding: 30px;
+      width: 50vw;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 40px;
+      border-radius: 18px;
+
+      label{
+        a{
+            color: #88949E;
+        }
+      }
+
+      input{
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        font-size: 16px;
+        color: #89959e;
+        background: #fff;
+        border: none;
+        margin-top: 10px;
+      }
+
+      p{
+        color: #88949E;
+        margin-bottom: 25px;
+        font-size: 14px;
+        line-height: 1.5;
+
+        span{
+            color: #fff;
+        }
+      }
+
+      button{
+        width: 100%;
+        background: #00A5D7;
+        border: none;
+        outline: none;
+        color: #fff;
+        font-size: 16px;
+        padding: 10px 0;
+        border-radius: 8px;
+      }
+    }
+
+    .footer__container {
+      font-size: 16px;
+      text-align: center;
+
+      a {
+        color: #89959e;
+        text-decoration: none;
+      }
+    }
+  }
+}

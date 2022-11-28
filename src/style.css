@@ -1,0 +1,98 @@
+.app__container {
+  padding: 30px 0;
+}
+.app__container .landing__container .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+.app__container .landing__container .title img {
+  width: 50px;
+  height: 50px;
+}
+.app__container .landing__container .navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  color: #89959e;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+.app__container .landing__container .navLinks div {
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+.app__container .landing__container .navLinks div:hover {
+  color: #fff;
+}
+.app__container .landing__container .bannerImage {
+  display: block;
+  margin: 0 auto;
+  width: 45vw;
+}
+.app__container .landing__container .faucetDescription__container {
+  font-size: 22px;
+  width: 50vw;
+  margin: 15px auto;
+  color: #89959e;
+  line-height: 1.5;
+}
+.app__container .landing__container .faucetDescription__container a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.app__container .landing__container .faucet__container {
+  background: #2c3339;
+  padding: 30px;
+  width: 50vw;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  border-radius: 18px;
+}
+.app__container .landing__container .faucet__container label a {
+  color: #88949E;
+}
+.app__container .landing__container .faucet__container input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #89959e;
+  background: #fff;
+  border: none;
+  margin-top: 10px;
+}
+.app__container .landing__container .faucet__container p {
+  color: #88949E;
+  margin-bottom: 25px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.app__container .landing__container .faucet__container p span {
+  color: #fff;
+}
+.app__container .landing__container .faucet__container button {
+  width: 100%;
+  background: #00A5D7;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 0;
+  border-radius: 8px;
+}
+.app__container .landing__container .footer__container {
+  font-size: 16px;
+  text-align: center;
+}
+.app__container .landing__container .footer__container a {
+  color: #89959e;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
